@@ -11,6 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductosLibrary", "Product
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VentasLibrary", "VentasLibrary\VentasLibrary.csproj", "{4A1B4799-0B1B-4155-BCB6-F72A45B1DAA4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dll", "dll", "{6D514964-476F-45B8-B6F1-A30AEE3FC2C6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\database.sql = ..\..\..\Downloads\database.sql
+		..\..\docker\docker-compose.yml = ..\..\docker\docker-compose.yml
+		..\..\docker\sapassword.env = ..\..\docker\sapassword.env
+		..\..\docker\sqlserver.env = ..\..\docker\sqlserver.env
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
